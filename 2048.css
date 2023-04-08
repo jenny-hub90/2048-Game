@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+body {
+    background:linear-gradient(to left,#FFDEB9,#FFBF9B,#FFF4E0);
+}
+h1{
+    text-align: center;
+    margin:10px;
+    letter-spacing:5px;
+    text-shadow: 3px 3px #FFA559;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 3px 3px #FFA559;
+    font-size: 30px;
+}
+
+#box {
+    width: 400px;
+    height: 400px;
+    background-color: #FFF4E0;
+    border-radius: 5px;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid ;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.x2{
+    background-color: #FFDEB9;
+}
+
+.x4{
+    background-color: #FFBF9B;
+}
+
+.x8{
+    background-color: #FFA559;
+}
+
+.x16{
+   background-color: #ECA869;
+}
+
+.x32{
+   background-color: #FF884B;
+}
+
+.x64{
+    background-color:#FFEEAF;
+}
+
+.x64{
+    background-color:#F7A76C;
+}
+
+.x128{
+    background-color:#FFDEB4;
+}
+
+.x256{
+    background-color:#FFE3A9;
+}
+
+.x512{
+    background-color: #E3B7A0;
+}
+
+.x1024{
+    background-color: #ECC488;
+}
+
+.x2048{
+    background-color:#FFF1BD;
+}
+
+.x4096{
+    background-color: #F6F2D4;
+}
+
+.x8192{
+    background-color: #F9CF93;
+}
+
+#restart{
+    font-size: 1.3em;
+    border:none;
+    width:100px;
+    padding:0.5em;
+    display: block;
+    margin:1.5em auto 0 auto;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    background-color: #F7A440;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
